@@ -11,7 +11,7 @@ using System.IO;
 using UnityEngine.Video;
 using TMPro;
 
-public class WebcamFeedReception : MonoBehaviour
+public class UnityController : MonoBehaviour
 {
     public RawImage rawImage;
     private SubscriberSocket subscriberSocket;
