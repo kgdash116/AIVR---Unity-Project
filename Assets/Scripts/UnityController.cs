@@ -531,10 +531,10 @@ private void PlaceCylinder(Vector3 objPos, Vector3 objScale,Vector3 objRot, stri
     {
 
         Debug.Log("Received message 'PlacePlane'. Creating a Plane...");
-        Vector3 spawnPosition = new Vector3(x, y, z);
+        
         GameObject plane = GameObject.CreatePrimitive(PrimitiveType.Plane);
         plane.name=object_name;
-        plane.transform.position = spawnPosition;
+        plane.transform.position = objPos;
         Renderer planeRenderer = plane.GetComponent<Renderer>();
         if (colorInputValues.Length == 3)
         {
@@ -563,7 +563,7 @@ private void PlaceCylinder(Vector3 objPos, Vector3 objScale,Vector3 objRot, stri
         
 
 
-        plane.transform.localScale = new Vector3(h, w, l);
+        plane.transform.localScale = objScale;
         plane.transform.rotation = Quaternion.Euler(objRot);
     }
 
