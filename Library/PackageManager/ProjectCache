@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638369343810000000
+      ticks: 638369349980000000
     m_Hash: 3304982544
   m_LockFileStatus:
     m_FilePath: /Users/waqaskureshy/AIVR Unity Project/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638369343810000000
+      ticks: 638369349980000000
     m_Hash: 2285442691
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
