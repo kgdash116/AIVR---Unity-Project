@@ -456,7 +456,7 @@ private void PlaceCylinder(Vector3 objPos, Vector3 objScale,Vector3 objRot, stri
     
     GameObject cylinder = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
     cylinder.name = object_name;
-    cylinder.transform.position = spawnPosition;
+    cylinder.transform.position = objPos;
 
     Renderer cylinderRenderer = cylinder.GetComponent<Renderer>();
     if (colorInputValues.Length == 3)
