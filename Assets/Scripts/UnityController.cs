@@ -571,10 +571,10 @@ private void PlaceCylinder(Vector3 objPos, Vector3 objScale,Vector3 objRot, stri
     {
 
         Debug.Log("Received message 'PlaceQuad'. Creating a Quad...");
-        Vector3 spawnPosition = new Vector3(x, y, z);
+        
         GameObject quad = GameObject.CreatePrimitive(PrimitiveType.Quad);
         quad.name=object_name;
-        quad.transform.position = spawnPosition;
+        quad.transform.position = objPos;
         Renderer quadRenderer = quad.GetComponent<Renderer>();
         if (colorInputValues.Length == 3)
         {
@@ -603,7 +603,7 @@ private void PlaceCylinder(Vector3 objPos, Vector3 objScale,Vector3 objRot, stri
         
 
 
-        quad.transform.localScale = new Vector3(h, w, l);
+        quad.transform.localScale = objScale;
         quad.transform.rotation = Quaternion.Euler(objRot);
     }
 
