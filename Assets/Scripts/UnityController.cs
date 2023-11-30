@@ -492,10 +492,10 @@ private void PlaceCylinder(Vector3 objPos, Vector3 objScale,Vector3 objRot, stri
  private void PlaceCapsule(Vector3 objPos, Vector3 objScale,Vector3 objRot, string object_name, string[] colorInputValues)
 {
     Debug.Log("Received message 'PlaceCapsule'. Creating a Capsule...");
-    Vector3 spawnPosition = new Vector3(x, y, z);
+    
     GameObject capsule = GameObject.CreatePrimitive(PrimitiveType.Capsule);
     capsule.name = object_name;
-    capsule.transform.position = spawnPosition;
+    capsule.transform.position = objPos;
 
     Renderer capsuleRenderer = capsule.GetComponent<Renderer>();
     if (colorInputValues.Length == 3)
@@ -524,7 +524,7 @@ private void PlaceCylinder(Vector3 objPos, Vector3 objScale,Vector3 objRot, stri
 
     // Set the scale of the sphere based on the radius
     capsule.transform.rotation = Quaternion.Euler(objRot);
-    capsule.transform.localScale = new Vector3(h, w, l);
+    capsule.transform.localScale = objScale;
 }
 
     private void PlacePlane(Vector3 objPos, Vector3 objScale,Vector3 objRot, string object_name, string[] colorInputValues)
