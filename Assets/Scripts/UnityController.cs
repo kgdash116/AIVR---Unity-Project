@@ -179,7 +179,7 @@ public class UnityController : MonoBehaviour
             // Set the width and height
             rectTransform.sizeDelta = new Vector2(300f, 200f);
             
-            rectTransform.anchoredPosition = new Vector2(350f,155f);
+            rectTransform.anchoredPosition = new Vector2(480f,260f);
 
             Texture2D texture = new Texture2D(2, 2);
             texture.LoadImage(frameData);
@@ -210,25 +210,11 @@ public class UnityController : MonoBehaviour
                 string spawnPositionInput = messageParts[1];
                 string scaleInput = messageParts[2];
                 string file_path=messageParts[3];
-                
-
-
-                // Parse the spawn position input
-                string[] spawnPositionValues = spawnPositionInput.Split(',');
-                string[] scaleInputValues = scaleInput.Split(',');
-                
-                if (spawnPositionValues.Length == 3 && scaleInputValues.Length == 3)
-                {
-                    if (float.TryParse(spawnPositionValues[0], out float x) && float.TryParse(spawnPositionValues[1], out float y) &&
-                    float.TryParse(spawnPositionValues[2], out float z) && float.TryParse(scaleInputValues[0], out float h)
-                    && float.TryParse(scaleInputValues[1], out float w) && float.TryParse(scaleInputValues[2], out float l))
-                    {
-
-                        //LaunchVideo(x, y, z, h, w, l,file_path);
-                        UnityMainThreadDispatcher.Enqueue(() => { LaunchVideo(x, y, z, h, w, l, file_path); });
-                        return;
-                    }
-                }
+                Vector3 spawnPositionVector = vectorParserUtility(spawnPositionInput);
+                Vector3 scaleVector = vectorParserUtility(scaleInput);
+                UnityMainThreadDispatcher.Enqueue(() => { LaunchVideo(spawnPositionVector, scaleVector, file_path); });
+                return;
+                   
 
             }
 
@@ -381,13 +367,13 @@ public class UnityController : MonoBehaviour
 
     }
 
-    private void LaunchVideo(float x, float y, float z, float h, float w, float l, string videoFilePath)
+    private void LaunchVideo(Vector3 objPos, Vector3 objScale, string videoFilePath)
     {
 
         GameObject quad = GameObject.CreatePrimitive(PrimitiveType.Quad);
         quad.name = "QuadWithVideo";
-        quad.transform.position = new Vector3(x, y, z); // Set the position as needed
-        quad.transform.localScale = new Vector3(h, w, l);
+        quad.transform.position = objPos;
+        quad.transform.localScale = objScale;
         VideoPlayer videoPlayer = quad.AddComponent<VideoPlayer>();
 
             // Set the video clip from file path
