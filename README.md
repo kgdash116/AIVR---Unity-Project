@@ -34,12 +34,17 @@ The AIVR Unity project is made up of only the essential components required by t
   <p>
   <img src="https://github.com/kgdash116/AIVR---Unity-Project/blob/main/Unity%20screenshots/Screenshot%202023-12-06%20at%201.48.23%E2%80%AFPM.png?raw=true">
 </p>
+
 - Locate the folder for the project and click on open.
+
   <p>
   <img src="https://github.com/kgdash116/AIVR---Unity-Project/blob/main/Unity%20screenshots/Screenshot%202023-12-06%20at%201.51.16%E2%80%AFPM.png?raw=true">
 </p>
+
 - Let the Assets load and the C# scripts compile.
+  
 - Press Play.
+
   <p> <img src="https://github.com/kgdash116/AIVR---Unity-Project/blob/main/Unity%20screenshots/Screenshot%202023-12-06%20at%202.22.37%E2%80%AFPM.png?raw=true"></p>
 
 
@@ -50,16 +55,23 @@ The AIVR Unity project is made up of only the essential components required by t
   <p>
   <img src="https://github.com/kgdash116/AIVR---Unity-Project/blob/main/Unity%20screenshots/Screenshot%202023-12-01%20at%2012.48.46%E2%80%AFPM.png?raw=true">
 </p>
+
 - The attributes for the objects and commands for rendering are passed from the AIVR package.
+- 
 - This Unity module has the ability to recieve and render Camera output.
+
   <p>
   <img src="https://github.com/kgdash116/AIVR---Unity-Project/blob/main/Unity%20screenshots/Screenshot%202023-12-01%20at%2012.43.07%E2%80%AFPM.png?raw=true">
 </p>
+
 - The user can also create and render video objects received from the AIVR Package.
+  
   <p>
   <img src="https://github.com/kgdash116/AIVR---Unity-Project/blob/main/Unity%20screenshots/Screenshot%202023-12-01%20at%201.04.41%E2%80%AFPM.png?raw=true">
 </p>
+
 - This module also takes accepts text input, from the AIVR package, where font, size, spawn position and color are passed in as parameters from the AIVR package.
+  
   <p>
-  <img src="https://github.com/kgdash116/AIVR---Unity-Project/blob/main/Unity%20screenshots/Screenshot%202023-12-01%20at%201.04.41%E2%80%AFPM.png?raw=true">
+  <img src="">
 </p>
