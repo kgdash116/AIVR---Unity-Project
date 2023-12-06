@@ -22,20 +22,44 @@ Prabjyot Obhi |  | Team Member |
 ## Package
 The AIVR Unity project is made up of only the essential components required by the User to establish communication with the AIVR Python package. It features a `UnityController` class and a `UnityMainThreadDispatcher` class. New methods can be adopted in, and the project existing resources can easily be added to other existing projects to make use of the AIVR Python Package. Present below is a highlevel architecture of the Unity AIVR project, which lists its building blocks. 
 
+<p>
+  <img src="https://github.com/kgdash116/AIVR---Unity-Project/blob/main/Unity%20screenshots/Unity%20architecture.png?raw=true">
+</p>
 
 
 ## Installation
 
 - Download the Unity code.
 - Open Unity Hub, click on the `Add` button to add the project.
+  <p>
+  <img src="https://github.com/kgdash116/AIVR---Unity-Project/blob/main/Unity%20screenshots/Screenshot%202023-12-06%20at%201.48.23%E2%80%AFPM.png?raw=true">
+</p>
 - Locate the folder for the project and click on open.
+<p>
+  <img src="https://github.com/kgdash116/AIVR---Unity-Project/blob/main/Unity%20screenshots/Screenshot%202023-12-06%20at%201.51.16%E2%80%AFPM.png?raw=true">
+</p>
 - Let the Assets load and the C# scripts compile.
 - Press Play.
+<p>![image](https://github.com/kgdash116/AIVR---Unity-Project/assets/101527504/4d527231-c90a-416f-8604-e0adf22841af)</p>
+
 
 
 ## Functionality
 
 - The user can create all sorts of custome 3-D game objects like Cubes,Cylinders,Capsules,Spheres and Planes.
+  <p>
+  <img src="https://github.com/kgdash116/AIVR---Unity-Project/blob/main/Unity%20screenshots/Screenshot%202023-12-01%20at%2012.48.46%E2%80%AFPM.png?raw=true">
+</p>
 - The attributes for the objects and commands for rendering are passed from the AIVR package.
 - This Unity module has the ability to recieve and render Camera output.
-- The user can also create and render video objects received from the AIVR Package. 
+<p>
+  <img src="https://github.com/kgdash116/AIVR---Unity-Project/blob/main/Unity%20screenshots/Screenshot%202023-12-01%20at%2012.43.07%E2%80%AFPM.png?raw=true">
+</p>
+- The user can also create and render video objects received from the AIVR Package.
+<p>
+  <img src="https://github.com/kgdash116/AIVR---Unity-Project/blob/main/Unity%20screenshots/Screenshot%202023-12-01%20at%201.04.41%E2%80%AFPM.png?raw=true">
+</p>
+- This module also takes accepts text input, from the AIVR package, where font, size, spawn position and color are passed in as parameters from the AIVR package.
+<p>
+  <img src="https://github.com/kgdash116/AIVR---Unity-Project/blob/main/Unity%20screenshots/Screenshot%202023-12-01%20at%201.04.41%E2%80%AFPM.png?raw=true">
+</p>
