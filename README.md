@@ -73,5 +73,5 @@ The AIVR Unity project is made up of only the essential components required by t
 - This module also takes accepts text input, from the AIVR package, where font, size, spawn position and color are passed in as parameters from the AIVR package.
   
   <p>
-  <img src="">
+  <img src="https://github.com/kgdash116/AIVR---Unity-Project/blob/main/Unity%20screenshots/Screenshot%202023-12-01%20at%2012.52.43%E2%80%AFPM.png?raw=true">
 </p>
