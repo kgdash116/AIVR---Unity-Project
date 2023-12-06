@@ -1,5 +1,5 @@
 # AIVR---Unity-Project
-An open-source Unity based repository for the AIVR project . This repository serves as the Unity module that connects with the AIVR open-source Python Package.It has the essenttial scripts that creates Socket based connections with the AIVR Python package, as well as a contoller module that allows the user to shift control of the Unity environment to the Python environment. It processes commands recieved from the AIVR package and renders out results as Game objects on the Unity Game scene.
+An open-source Unity based repository for the [AIVR project](https://github.com/kgdash116/aivr-project)! . This repository serves as the Unity module that connects with the AIVR open-source Python Package.It has the essenttial scripts that creates Socket based connections with the AIVR Python package, as well as a contoller module that allows the user to shift control of the Unity environment to the Python environment. It processes commands recieved from the AIVR package and renders out results as Game objects on the Unity Game scene.
 
 
 ## Table of Contents
