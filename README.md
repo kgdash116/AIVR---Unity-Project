@@ -17,7 +17,7 @@ Name | Photo | Role | Email
 Harry Li | <img src="https://user-images.githubusercontent.com/38079632/227462713-9f9a5f60-e869-4c92-a653-98c1e6af724f.jpg" width="100" height="100"> | Project Supervisor & Architect | hua.li@sjsu.edu
 Yusuke Yakuwa | <img src="https://user-images.githubusercontent.com/38079632/227462162-c2182a3b-e310-4b65-8d48-9ce06d7f87dd.jpg" width="100" height="100"> | Industrial Advisor | yusuke.yakuwa@ctione.com
 Waqas Kureshy | <img src="https://github.com/kgdash116.png" width="100" height="100">| Lead Developer | waqas.kureshy@sjsu.edu / waqas.kureshy319@gmail.com
-Prabjyot Obhi | <img src="https://github.com/kgdash116/AIVR---Unity-Project/blob/main/Unity%20screenshots/image_50404609.JPG?raw=true" width="100" height="100" > | Developer | prabjyot.obhi@sjsu.edu
+Prabjyot Obhi | <img src="https://github.com/kgdash116/AIVR---Unity-Project/blob/main/Unity%20screenshots/image_50404609.JPG?raw=true" width="80" height="100" > | Developer | prabjyot.obhi@sjsu.edu
 
 ## Package
 The AIVR Unity project is made up of only the essential components required by the User to establish communication with the AIVR Python package. It features a `UnityController` class and a `UnityMainThreadDispatcher` class. New methods can be adopted in, and the project existing resources can easily be added to other existing projects to make use of the AIVR Python Package. Present below is a highlevel architecture of the Unity AIVR project, which lists its building blocks. 
