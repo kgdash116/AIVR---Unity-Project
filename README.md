@@ -23,7 +23,7 @@ Prabjyot Obhi |  | Team Member |
 The AIVR Unity project is made up of only the essential components required by the User to establish communication with the AIVR Python package. It features a `UnityController` class and a `UnityMainThreadDispatcher` class. New methods can be adopted in, and the project existing resources can easily be added to other existing projects to make use of the AIVR Python Package. Present below is a highlevel architecture of the Unity AIVR project, which lists its building blocks. 
 
 <p align="center">
-  <img src="https://github.com/kgdash116/AIVR---Unity-Project/blob/main/Unity%20screenshots/Unity%20architecture.png?raw=true">
+  <img src="https://github.com/kgdash116/AIVR---Unity-Project/blob/main/Unity%20screenshots/Unity%20archntecture%20ALT%20colors.png?raw=true">
 </p>
 
 
